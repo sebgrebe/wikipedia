@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>Wikipedia Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!--Bootstrap-->  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!--Stylesheet -->
+  <link rel="stylesheet" href="wikipedia.css" type="text/css">
+
+  <!-- jQuery library -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  
+  <!-- JS -->
+  <script src="wikipedia.js" type="text/javascript"></script>
+
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="outer">
+      <div class="middle">
+        <div id="inner" class="search">
+          <!--Search field -->
+          <form id="form">
+            <input type="text" name="enter" class="enter" value="" id="search" placeholder="Search Wikipedia"/>
+            <input type="button" class="button" value="Search" id="button"/>
+          </form>
+          <div id="random" class="random">
+            <a class="random" href="https://en.wikipedia.org/wiki/Special:Random"  >...or get a random article!</a></div>
+          </div>
+
+          <!--Results of search-->
+          <div id="results"></div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </body>
+  </html>
+
+
+
